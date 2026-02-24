@@ -1,98 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Harshil Prajapati | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <img src="profile.jpg" alt="Profile" />
+        <h2>Harshil Prajapati</h2>
+        <p>Python & Django Developer</p>
 
-<header>
-    <nav>
-        <h2 class="logo">Harshil.</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </aside>
 
-<section class="hero">
-    <div class="content">
-        <h1>Hi, I'm <span>Harshil Prajapati</span></h1>
-        <h3>Python & Django Developer</h3>
-        <p>Building scalable web applications with clean backend architecture.</p>
-        <a href="#contact" class="btn">Let's Connect</a>
+      <main class="content">
+        <section id="about">
+          <h1>About Me</h1>
+          <p>
+            I am a passionate BCA student focused on backend development. I
+            specialize in Django, REST APIs, and building scalable web
+            applications. I enjoy solving real-world problems with clean
+            architecture.
+          </p>
+        </section>
+
+        <section id="skills">
+          <h1>Skills</h1>
+          <div class="grid">
+            <div class="box">Python</div>
+            <div class="box">Django</div>
+            <div class="box">Django REST Framework</div>
+            <div class="box">HTML</div>
+            <div class="box">CSS</div>
+            <div class="box">Git & GitHub</div>
+            <div class="box">MySQL</div>
+          </div>
+        </section>
+
+        <section id="projects">
+          <h1>Projects</h1>
+
+          <div class="project-grid">
+            <div class="project-card">
+              <img src="medical.jpg" alt="Project" />
+              <div class="project-content">
+                <h3>Medical Store Management</h3>
+                <p>
+                  Django-based eCommerce system with cart, order tracking and
+                  payment integration.
+                </p>
+
+                <div class="tags">
+                  <span>Python</span>
+                  <span>Django</span>
+                  <span>Bootstrap</span>
+                </div>
+
+                <div class="buttons">
+                  <a href="#" class="btn">Live Demo</a>
+                  <a href="#" class="btn-outline">GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="api.png" alt="Project" />
+              <div class="project-content">
+                <h3>Blog REST API</h3>
+                <p>
+                  Secure REST API built using Django REST Framework with
+                  authentication.
+                </p>
+
+                <div class="tags">
+                  <span>DRF</span>
+                  <span>API</span>
+                  <span>JWT</span>
+                </div>
+
+                <div class="buttons">
+                  <a href="#" class="btn">Live Demo</a>
+                  <a href="#" class="btn-outline">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience">
+          <h1>Experience</h1>
+          <div class="project">
+            <h3>Django Developer Intern</h3>
+            <p>
+              Worked on backend logic, API development, and database
+              optimization.
+            </p>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h1>Contact</h1>
+          <p>Email: harshil@example.com</p>
+          <p>Location: Gujarat, India</p>
+        </section>
+
+        <footer>© 2026 Harshil Prajapati</footer>
+      </main>
     </div>
-
-    <div class="image">
-        <img src="profile.jpg" alt="Profile">
-    </div>
-</section>
-
-<section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-        Passionate BCA student focused on backend development.
-        Experienced in Django, REST APIs, and building real-world projects.
-        Strong problem-solving mindset with clean coding practices.
-    </p>
-</section>
-
-<section id="skills" class="section glass">
-    <h2>Skills</h2>
-
-    <div class="skill">
-        <span>Python</span>
-        <div class="bar"><div class="fill python"></div></div>
-    </div>
-
-    <div class="skill">
-        <span>Django</span>
-        <div class="bar"><div class="fill django"></div></div>
-    </div>
-
-    <div class="skill">
-        <span>HTML & CSS</span>
-        <div class="bar"><div class="fill html"></div></div>
-    </div>
-</section>
-
-<section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="cards">
-        <div class="card">
-            <h3>Medical Store System</h3>
-            <p>Django-based eCommerce with cart, orders & payment integration.</p>
-        </div>
-
-        <div class="card">
-            <h3>Blog REST API</h3>
-            <p>Secure REST API using Django REST Framework.</p>
-        </div>
-    </div>
-</section>
-
-<section id="experience" class="section glass">
-    <h2>Experience</h2>
-    <div class="card">
-        <h3>Django Developer Intern</h3>
-        <p>Worked on backend logic, APIs, database optimization & deployment.</p>
-    </div>
-</section>
-
-<section id="contact" class="section">
-    <h2>Contact Me</h2>
-    <p>Email: harshil@example.com</p>
-    <p>Location: Gujarat, India</p>
-</section>
-
-<footer>
-    © 2026 Harshil Prajapati
-</footer>
-
-</body>
+  </body>
 </html>
