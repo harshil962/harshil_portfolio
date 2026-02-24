@@ -1,89 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Harshil - My Portfolio</title>
+    <meta charset="UTF-8">
+    <title>Harshil Prajapati | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="header">
-        <h1>Harshil's Website</h1>
-        <p>Full Stack Developer & College Student</p>
+<header>
+    <nav>
+        <h2 class="logo">Harshil.</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="content">
+        <h1>Hi, I'm <span>Harshil Prajapati</span></h1>
+        <h3>Python & Django Developer</h3>
+        <p>Building scalable web applications with clean backend architecture.</p>
+        <a href="#contact" class="btn">Let's Connect</a>
     </div>
 
-    <div class="navbar">
-        <a href="#about">About Me</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+    <div class="image">
+        <img src="profile.jpg" alt="Profile">
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        Passionate BCA student focused on backend development.
+        Experienced in Django, REST APIs, and building real-world projects.
+        Strong problem-solving mindset with clean coding practices.
+    </p>
+</section>
+
+<section id="skills" class="section glass">
+    <h2>Skills</h2>
+
+    <div class="skill">
+        <span>Python</span>
+        <div class="bar"><div class="fill python"></div></div>
     </div>
 
-    <div class="main-container">
-
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am currently a 3rd year college student. I like coding and building websites. My goal is to become a good Full Stack Developer.</p>
-        </section>
-
-        <hr>
-
-        <section id="experience">
-            <h2>Experience</h2>
-            <div class="exp-item">
-                <h3>Freelance Web Work</h3>
-                <p>Created basic websites for small clients using HTML and CSS.</p>
-            </div>
-            <div class="exp-item">
-                <h3>College Training</h3>
-                <p>Learning backend logic with Django and database management.</p>
-            </div>
-        </section>
-
-        <hr>
-
-        <section id="skills">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Web: HTML, CSS, PHP, MySQL</li>
-                <li>Frameworks: Django, React Native</li>
-                <li>Languages: C#, Python</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <section id="projects">
-            <h2>My Projects</h2>
-            <div class="project">
-                <h3>1. Online Medical Store</h3>
-                <p>A web project made using PHP and MySQL to manage medicine orders.</p>
-            </div>
-            <div class="project">
-                <h3>2. Tic-Tac-Toe Game</h3>
-                <p>A game built to practice logic and UI design.</p>
-            </div>
-        </section>
-
-        <hr>
-
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email: harshil@example.com</p>
-            <form>
-                <label>Name:</label><br>
-                <input type="text"><br>
-                <label>Message:</label><br>
-                <textarea rows="4"></textarea><br>
-                <button type="submit">Send</button>
-            </form>
-        </section>
-
+    <div class="skill">
+        <span>Django</span>
+        <div class="bar"><div class="fill django"></div></div>
     </div>
 
-    <div class="footer">
-        <p>Copyright 2026 - Harshil Portfolio</p>
+    <div class="skill">
+        <span>HTML & CSS</span>
+        <div class="bar"><div class="fill html"></div></div>
     </div>
+</section>
+
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Medical Store System</h3>
+            <p>Django-based eCommerce with cart, orders & payment integration.</p>
+        </div>
+
+        <div class="card">
+            <h3>Blog REST API</h3>
+            <p>Secure REST API using Django REST Framework.</p>
+        </div>
+    </div>
+</section>
+
+<section id="experience" class="section glass">
+    <h2>Experience</h2>
+    <div class="card">
+        <h3>Django Developer Intern</h3>
+        <p>Worked on backend logic, APIs, database optimization & deployment.</p>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: harshil@example.com</p>
+    <p>Location: Gujarat, India</p>
+</section>
+
+<footer>
+    © 2026 Harshil Prajapati
+</footer>
 
 </body>
 </html>
