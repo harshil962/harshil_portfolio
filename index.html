@@ -5,10 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Harshil Prajapati - BCA Student & Django Developer Portfolio">
   <title>Harshil Prajapati | Portfolio</title>
-<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-  <link rel="icon" href="profile.jpg">
-  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -45,10 +49,10 @@
       </div>
 
       <div class="social-icons">
-        <a href="https://github.com/harshil962" target="_blank">
+        <a href="https://github.com/harshil962" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-github"></i>
         </a>
-        <a href="https://www.linkedin.com/in/harshil-prajapati3" target="_blank">
+        <a href="https://www.linkedin.com/in/harshil-prajapati3" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-linkedin"></i>
         </a>
       </div>
@@ -61,7 +65,7 @@
   <div class="container">
     <h2 class="section-title">About Me</h2>
     <p class="about-text">
-      I'm a third-year BCA student specializing in backend development using 
+      I'm a third-year BCA student specializing in 
       <strong>Python</strong> and <strong>Django</strong>. 
       I focus on building secure, scalable, and responsive web applications.
     </p>
@@ -70,38 +74,58 @@
 
 <section class="projects-skills" id="projects" data-aos="fade-up">
   <div class="container">
+
     <h2 class="section-title">Projects</h2>
 
     <div class="project-cards">
-      <div class="card">
-        <a href="https://github.com/harshil962/expense-tracker">
-        <h4>Expense-Tracker</h4>
-        </a>
-        <p>Django-based shopping system with authentication, payments.</p>
-      </div>
 
-      <div class="card">
-        <a href="https://github.com/harshil962/final-year-project">
+      <a href="https://github.com/harshil962/expense-tracker" 
+         target="_blank" rel="noopener noreferrer" 
+         class="card">
+        <h4>Expense Tracker</h4>
+        <p>Django-based expense management system with authentication and category tracking.</p>
+      </a>
+
+      <a href="https://github.com/harshil962/final-year-project" 
+         target="_blank" rel="noopener noreferrer" 
+         class="card">
         <h4>Final Year Project</h4>
-        </a>
-        <p>Web management system with secure login & database integration.</p>
-      </div>
+        <p>Web management system with secure login and database integration.</p>
+      </a>
 
-      <div class="card">
-        <a href="https://github.com/harshil962/qr_code_generator">
-        <h4>qr_code_generator</h4>
-        </a>
-        <p>Modern responsive using HTML & CSS.</p>
-      </div>
+      <a href="https://github.com/harshil962/qr_code_generator" 
+         target="_blank" rel="noopener noreferrer" 
+         class="card">
+        <h4>QR Code Generator</h4>
+        <p>Modern responsive QR generator built using HTML & CSS.</p>
+      </a>
+
     </div>
 
-    <h2 class="section-title" data-aos="fade-up">Skills</h2>
+    <h2 class="section-title">Skills</h2>
 
-    <div class="skills-container" data-aos="fade-up">
-      <div class="skill"><span>Python</span><div class="bar"><div class="progress python"></div></div></div>
-      <div class="skill"><span>Django</span><div class="bar"><div class="progress django"></div></div></div>
-      <div class="skill"><span>HTML & CSS</span><div class="bar"><div class="progress html"></div></div></div>
-      <div class="skill"><span>JavaScript</span><div class="bar"><div class="progress js"></div></div></div>
+    <div class="skills-container">
+
+      <div class="skill">
+        <span>Python</span>
+        <div class="bar"><div class="progress python"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Django</span>
+        <div class="bar"><div class="progress django"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>HTML & CSS</span>
+        <div class="bar"><div class="progress html"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="bar"><div class="progress js"></div></div>
+      </div>
+
     </div>
 
   </div>
@@ -109,9 +133,11 @@
 
 <section class="contact" id="contact" data-aos="fade-up">
   <div class="container">
+
     <h2 class="section-title">Contact Me</h2>
 
     <div class="contact-content">
+
       <div>
         <h3>Let's Work Together</h3>
         <p>Email: harshil@email.com</p>
@@ -124,6 +150,7 @@
         <textarea rows="5" placeholder="Your Message" required></textarea>
         <button type="submit" class="contact-btn">Send Message</button>
       </form>
+
     </div>
   </div>
 </section>
@@ -131,13 +158,14 @@
 <footer class="footer">
   <p>© 2026 Harshil Prajapati. Built with ❤️ using HTML & CSS.</p>
 </footer>
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 <script>
   AOS.init({
     duration: 1000,
     once: true
   });
 </script>
+
 </body>
 </html>
