@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Harshil Prajapati - BCA Student & Django Developer Portfolio">
   <title>Harshil Prajapati | Portfolio</title>
-
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <link rel="icon" href="profile.jpg">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -57,7 +57,7 @@
   </div>
 </section>
 
-<section class="about" id="about">
+<section class="about" id="about" data-aos="fade-up">
   <div class="container">
     <h2 class="section-title">About Me</h2>
     <p class="about-text">
@@ -68,7 +68,7 @@
   </div>
 </section>
 
-<section class="projects-skills" id="projects">
+<section class="projects-skills" id="projects" data-aos="fade-up">
   <div class="container">
     <h2 class="section-title">Projects</h2>
 
@@ -107,7 +107,7 @@
   </div>
 </section>
 
-<section class="contact" id="contact">
+<section class="contact" id="contact" data-aos="fade-up">
   <div class="container">
     <h2 class="section-title">Contact Me</h2>
 
@@ -131,6 +131,13 @@
 <footer class="footer">
   <p>© 2026 Harshil Prajapati. Built with ❤️ using HTML & CSS.</p>
 </footer>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
 </body>
 </html>
